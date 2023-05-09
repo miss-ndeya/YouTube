@@ -3,9 +3,9 @@ button, input, .card{
     border: none;
   
 }
-header{
+/* header{
     background-color: white;
-}
+} */
 .input{
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px; 
@@ -22,12 +22,20 @@ header{
     border-bottom-right-radius: 50px;  */
 }
 .sidebar{
+
     height: 100%;
     left: 0;
+
 }
 .link-dark{
     font-size: 0.75em;
 }
 .offcanvas{
     width: 230px;
+}
+.offcanvas-body .nav-link span{
+    padding: 0 15px;
+    vertical-align: bottom;
+    white-space: nowrap;
+    font-size: 13px;
 }
